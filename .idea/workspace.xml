@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed3f9071-8b23-4616-ba4e-b52b919a1f5c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.sample" beforeDir="false" />
+    <list default="true" id="ed3f9071-8b23-4616-ba4e-b52b919a1f5c" name="Changes" comment="Patch and finish payement Microservice">
+      <change afterPath="$PROJECT_DIR$/.env.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/middleware/authMiddleware.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/PaymentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/PaymentController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/repositories/PaymentEntity.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/repositories/PaymentEntity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/repositories/PaymentRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/repositories/PaymentRepository.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +45,13 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Groot\Desktop\payement-microservice-main" />
+      <recent name="C:\Users\Groot\Desktop\payement-microservice-main\app\helpers" />
+      <recent name="C:\Users\Groot\Desktop\payement-microservice-main\app\middleware" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,11 +61,34 @@
       <option name="presentableId" value="Default" />
       <updated>1686907206490</updated>
       <workItem from="1686907207649" duration="1371000" />
-      <workItem from="1686908701684" duration="3763000" />
+      <workItem from="1686908701684" duration="4724000" />
     </task>
+    <task id="LOCAL-00001" summary="Patch and finish payement Microservice">
+      <created>1686912572320</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686912572320</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Patch and finish payement Microservice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Patch and finish payement Microservice" />
   </component>
 </project>
