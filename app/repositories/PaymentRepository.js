@@ -1,4 +1,5 @@
 import PaymentEntity from './PaymentEntity.js';
+import mongoose from 'mongoose';
 
 class PaymentRepository {
     async findAll() {
@@ -15,6 +16,16 @@ class PaymentRepository {
         } catch (error) {
             throw error;
         }
+    }
+
+    async create(reservationId, filmId, amount) {
+        const payment = new PaymentEntity({
+            _id: new mongoose.Types.ObjectId(), // Générer un nouvel identifiant
+            reservationId: reservationId,
+            filmId: filmId,
+            amount: amount
+        });
+        return payment.save();
     }
 }
 

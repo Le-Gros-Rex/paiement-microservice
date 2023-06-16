@@ -1,4 +1,3 @@
-import axios from 'axios';
 import PaymentService from '../services/PaymentService.js';
 
 class PaymentController {
